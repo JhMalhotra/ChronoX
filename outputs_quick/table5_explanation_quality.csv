@@ -1,0 +1,5 @@
+explainer,comprehensiveness↑,deletion-AUC↓,insertion-AUC↑,top-k mass (sparsity)↑,stability(top-k Jaccard)
+shapley,0.570 ± 0.242,0.287 ± 0.046,0.656 ± 0.210,0.685 ± 0.081,0.439 ± 0.177
+bc_lime,0.240 ± 0.224,0.408 ± 0.107,0.563 ± 0.250,0.445 ± 0.040,0.326 ± 0.163
+tf_gradcam,0.229 ± 0.261,0.446 ± 0.085,0.499 ± 0.218,0.561 ± 0.024,0.983 ± 0.075
+fused,0.590 ± 0.253,0.295 ± 0.056,0.647 ± 0.211,0.565 ± 0.071,n/a (fusion of the above)

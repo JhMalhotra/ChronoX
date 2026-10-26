@@ -1,0 +1,5 @@
+variant,comprehensiveness↑,deletion-AUC↓,insertion-AUC↑,trust→correctness AUC
+Full RAFE,0.746 ± 0.184,0.207 ± 0.052,0.751 ± 0.178,0.772
+- BC-LIME (global-pool LIME instead),0.756 ± 0.173,0.204 ± 0.049,0.753 ± 0.178,0.663
+- TF-Grad-CAM source,0.735 ± 0.194,0.211 ± 0.054,0.747 ± 0.182,0.745
+- reliability weighting (equal weights),0.732 ± 0.194,0.212 ± 0.056,0.748 ± 0.183,0.772

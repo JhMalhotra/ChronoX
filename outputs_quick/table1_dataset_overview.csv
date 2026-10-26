@@ -1,0 +1,2 @@
+dataset,instances,users,raw_columns,start,end,anomaly_rate,rate_first60%,rate_60-80%,rate_last20%
+spedia,72250,17,21,2025-03-06 11:46:28,2025-03-30 19:45:22.120,0.575,0.425,0.6493,0.9504

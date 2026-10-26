@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+scipy>=1.11
+matplotlib>=3.8
+torch>=2.2        # needed for the 1D-CNN + Temporal-Feature Grad-CAM source (RAFE degrades to 2 sources without it)
+shap>=0.45        # optional: exact TreeSHAP baseline (xai.tree_shap)
+xgboost>=2.0      # optional extra ensemble member
