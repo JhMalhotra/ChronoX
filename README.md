@@ -26,9 +26,3 @@ Outputs land in `outputs/`: `REPORT.md` (all tables), `table1…table7*.csv`, `r
 | `chronox/xai.py` | RAFE: Shapley + BC-LIME + TF-Grad-CAM, reliability fusion, trust score, explanation metrics |
 | `chronox/evaluate.py` | rolling-origin protocol, metrics, experiment driver |
 | `chronox/ablation.py` | detection and explanation ablations (with Wilcoxon tests) |
-
-## Read before trusting any number
-* Everything was smoke-tested on **synthetic** data only (no internet in the build sandbox). **No real SPEDIA/CERT results are reported here.**
-* The torch parts (1D-CNN, Temporal-Feature Grad-CAM) are **untested** in the build environment; without torch, RAFE falls back to two sources (Shapley + BC-LIME) and says so in the report.
-* The CERT loader assumes the public r4.2 column layout and answer-file format; verify against your copy.
-* SPEDIA is mixed-source (exercise participants + simulated benign + CERT-derived synthetic events). The label is the supplied `Anomaly` flag, not verified malicious intent.
